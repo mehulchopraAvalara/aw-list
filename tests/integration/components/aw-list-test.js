@@ -16,6 +16,5 @@ test('it renders items', function(assert) {
     items=items
   }}`)
 
-  assert.ok(this.$('ul').length, 'ul rendered');
-  assert.ok(this.$('li').length, 'li rendered');
+  assert.ok(this.$('div').length, 'div rendered');
 });
